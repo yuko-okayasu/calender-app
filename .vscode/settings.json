@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true, // 保存時に自動でコード整形
+  "editor.tabSize": 2, // タブのサイズをスペース 2 つ分
+  "html.format.endWithNewline": true, // html 保存時の最終行に改行を挿入
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features" // htmlのフォーマッターを指定
+  },
+  "prettier.disableLanguages": ["html"], // html の場合はコード整形に prettier を使用しない
+  "prettier.singleQuote": true, // JavaScript の文字列はダブルクォートではなくシングルクォート
+  "prettier.printWidth": 120, // 自動改行の目安は 120 文字
+  "go.buildOnSave": "off", // ファイル保存時に自動でビルドを実行しない
+  "go.installDependenciesWhenBuilding": false, // ビルド時に自動で依存パッケージをインストールしない
+  "go.lintOnSave": "file", // 保存時に Go ソースコードの静的解析を実行する
+  "go.formatTool": "gofmt", // Go の フォーマッターに gofmt を採用
+  "go.useLanguageServer": true, // 関数や構造体の定義をクイックヒントとして表示する
+  "files.trimTrailingWhitespace": true // 行末尾の不要なスペースを自動で削除する
+}
